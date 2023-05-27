@@ -1,0 +1,15 @@
+{
+    "name": "ahad/randomer",
+    "autoload": {
+        "psr-4": {
+            "User\\Randomer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mehedi Hasan Ahad",
+            "email": "mehedihasanahad07@gmail.com"
+        }
+    ],
+    "require": {}
+}
