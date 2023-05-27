@@ -1,5 +1,6 @@
 {
     "name": "ahad/randomer",
+    "description": "A short description of what your package does",
     "autoload": {
         "psr-4": {
             "User\\Randomer\\": "src/"
@@ -11,5 +12,7 @@
             "email": "mehedihasanahad07@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=7.4",
+    }
 }
