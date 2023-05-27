@@ -1,9 +1,16 @@
 {
     "name": "ahad/randomer",
-    "description": "A short description of what your package does",
+    "description": "A random string generator",
+    "keywords": [
+        "laravel_random",
+        "laravel",
+        "laravel_random"
+    ],
+    "homepage": "https://github.com/mehedihasanahad/randomer",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "User\\Randomer\\": "src/"
+            "Ahad\\Randomer\\": "src/"
         }
     },
     "authors": [
@@ -12,7 +19,15 @@
             "email": "mehedihasanahad07@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": ">=7.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ahad\\Randomer\\Providers\\RandomerProvider"
+            ]
+        }
     }
 }
